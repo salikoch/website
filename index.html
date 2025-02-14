@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TU News | Breaking & Latest Updates</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f1f1f1;
+            color: #333;
+        }
+        h1, h2 {
+            margin: 0;
+        }
+
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5em;
+        }
+
+        nav {
+            background-color: #004080;
+            padding: 10px 0;
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            list-style: none;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1em;
+            padding: 10px;
+        }
+        nav ul li a:hover {
+            background-color: #0059b3;
+            border-radius: 5px;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+
+        .news-article {
+            background-color: white;
+            padding: 25px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        .news-article h2 {
+            color: #003366;
+            font-size: 2em;
+            margin-bottom: 15px;
+        }
+        .news-article p {
+            line-height: 1.6;
+            color: #555;
+            font-size: 1.1em;
+        }
+        .news-article .published {
+            font-weight: bold;
+            color: #888;
+            font-size: 0.9em;
+            margin-bottom: 15px;
+        }
+        .news-article .btn-readmore {
+            display: inline-block;
+            background-color: #004080;
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+        .news-article .btn-readmore:hover {
+            background-color: #0059b3;
+        }
+
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: relative;
+            width: 100%;
+        }
+        footer p {
+            margin: 0;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+            }
+            nav ul {
+                flex-direction: column;
+            }
+            nav ul li {
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>TU News</h1>
+    <p>Breaking News, Updates, and Insights</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">World</a></li>
+        <li><a href="#">Local</a></li>
+        <li><a href="#">Politics</a></li>
+        <li><a href="#">Technology</a></li>
+        <li><a href="#">Sports</a></li>
+    </ul>
+</nav>
+
+<div class="container">
+    <div class="news-article">
+        <h2>Breaking News: Major Event Happens</h2>
+        <p class="published">Published: February 14, 2025 | Source: News Agency</p>
+        <p>This is a brief summary of the breaking news event. More details will be provided as the story develops. Stay tuned for updates. Early reports indicate that the incident is significant, and investigations are ongoing.</p>
+        <a href="#" class="btn-readmore">Read More</a>
+    </div>
+
+    <div class="news-article">
+        <h2>World Leaders Meet for Global Summit</h2>
+        <p class="published">Published: February 13, 2025 | Source: International News</p>
+        <p>World leaders have gathered for a global summit in an effort to address pressing issues such as climate change, global security, and economic recovery post-pandemic. Experts believe that this summit could influence major global policies for the next decade.</p>
+        <a href="#" class="btn-readmore">Read More</a>
+    </div>
+
+    <div class="news-article">
+        <h2>Local Hero Saves the Day</h2>
+        <p class="published">Published: February 12, 2025 | Source: Local News</p>
+        <p>A local hero has been praised for their quick thinking in a time of need. The brave individual jumped into action during an emergency situation, saving lives and ensuring the safety of the community. The community has rallied to honor this hero for their courage and bravery.</p>
+        <a href="#" class="btn-readmore">Read More</a>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 TU News Organization | All Rights Reserved | <a href="#">Privacy Policy</a></p>
+</footer>
+
+</body>
+</html>
